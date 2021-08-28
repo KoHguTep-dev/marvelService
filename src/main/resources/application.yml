@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      url: mongodb://localhost:27017/marvel
+      username: ${MONGO_USER}
+      password: ${MONGO_PASS}
+marvel_account:
+  api_link: ${API_LINK}
+  public_key: ${PUBLIC_KEY}
+  private_key: ${PRIVATE_KEY}
